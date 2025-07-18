@@ -41,7 +41,7 @@ def main():
         print(f"Units Consumed        : {units} units")
         print(f"Fixed Charge          : ₹{fixed_charge:.2f}")
         print(f"Energy Charge         : ₹{energy_charge:.2f}")
-        print(f"Fuel Adj. Charge (FAC): ₹{fac_charge:.2f}")
+        print(f"Electricity Duty      : ₹{fac_charge:.2f}")
         print(f"Wheeling Charge       : ₹{wheeling_charge:.2f}")
         print(f"-----------------------------")
         print(f"Total Bill            : ₹{total:.2f}\n")
