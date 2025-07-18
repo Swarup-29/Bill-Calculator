@@ -6,13 +6,13 @@ def main():
         user_input = input("Enter the number of units consumed (or type 'exit' to quit): ")
 
         if user_input.lower() == "exit":
-            print("Thank you for using the Electricity Bill Calculator!")
+            print("\nThank you for using the Electricity Bill Calculator!\n")
             break
 
         try:
             units = int(user_input)
         except ValueError:
-            print("Invalid input! Please enter a number or type 'exit' to quit.\n")
+            print("\nInvalid input! Please enter a number or type 'exit' to quit.\n")
             continue
 
         
