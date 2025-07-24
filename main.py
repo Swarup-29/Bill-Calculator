@@ -35,7 +35,7 @@ def main():
             Electricity_Duty_Tx = (fixed_charge + energy_charge_Tax + Wheeling_Changes) * Electricity_Duty
             Total_charge = fixed_charge + energy_charge_Tax + Wheeling_Changes + Electricity_Duty_Tx
 
-            print('************Calculated bill************\n')
+            print('\n************Calculated bill************\n')
             print(f"Fixed Charge           : {fixed_charge}")
             print(f"Energy Charge          : {energy_charge_Tax}")
             print(f"Wheeling Charges       : {Wheeling_Changes}")
